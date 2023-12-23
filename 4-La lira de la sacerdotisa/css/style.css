@@ -1,0 +1,21 @@
+
+* {margin: 0;  padding: 0; box-sizing: border-box;}
+
+body {
+
+    background: radial-gradient(rgb(131, 130, 130), rgb(189, 185, 185));
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+svg {
+    width: 50vw;
+    align-self: center;
+}
+
+.string {
+
+    cursor: pointer;
+}

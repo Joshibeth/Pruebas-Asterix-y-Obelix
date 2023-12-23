@@ -1,0 +1,96 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+
+    position: relative;
+    width: 100vw;
+    height:fit-content;
+    display: flex;
+    justify-content:center;
+    
+}
+
+
+.mapamundi {
+
+    width: 100%;
+    align-self: center;
+    
+}
+
+
+.container_kermesImg-button {
+    position: absolute;
+    float: right;
+    margin-left: 80%;
+    bottom: 10%;
+    
+}
+
+.kermesImg {
+
+    width: 60%;
+    
+}
+
+button {
+
+    width: 60%;
+    display: block;
+    cursor: pointer;
+
+}
+
+.punto-rojo {
+
+    background-color: red;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    position: absolute;
+}
+
+.mensaje {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    align-self: center;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+}
+
+@media  screen and (max-width: 760px) {
+
+    body {
+
+        height: fit-content;
+        justify-content: center;
+        position: relative;
+    }
+
+
+    .mapamundi {
+
+        width: 100%;
+        align-self: center;
+        position: absolute;
+        top: 20%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .container_kermesImg-button {
+        position: absolute;
+        float: right;
+        margin-left: 80%;
+        bottom: 35%;
+        
+    }
+
+
+    
+}
